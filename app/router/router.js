@@ -1,4 +1,4 @@
-import App from '../App'
+import App from '../app'
 
 const home = r => require.ensure([], () => r(require('../pages/home/home')), 'home')
 const invest = r => require.ensure([], () => r(require('../pages/invest/invest')), 'invest')
